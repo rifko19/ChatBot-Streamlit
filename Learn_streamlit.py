@@ -2,11 +2,14 @@ import base64
 import os
 
 import streamlit as st
+from dotenv import load_dotenv
 from together import Together
 
-os.environ["TOGETHER_API_KEY"] = "87d96d7a3ac564bd06d02b0ec19b853bb34dbe2718398e983a30b1a4c8cf9bcf"
+load_dotenv()
 
-client = Together(api_key=os.getenv("TOGETHER_API_KEY"))
+api_key = os.getenv("TOGETHER_API_KEY")
+
+client = Together(api_key=api_key)
 
 col1, col2 = st.columns([1, 5])
 
