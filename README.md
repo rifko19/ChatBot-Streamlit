@@ -1,6 +1,6 @@
 # ChatBot-Streamlit
 Chatbot Interaktif dengan Llama Model
-
+https://tanya-kak-gem.streamlit.app/
 ## Fitur Utama:
 - Model AI: Menggunakan Meta-Llama 3.1-405B Instruct Turbo untuk respons AI.  
 - Antarmuka Streamlit: Tampilan yang sederhana dan user-friendly.  
