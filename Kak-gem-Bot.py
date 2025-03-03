@@ -14,15 +14,15 @@ client = Together(api_key=api_key)
 col1, col2 = st.columns([1, 5])
 
 with col1:
-    st.image("image.png", width=100)
+    st.image("Kakgem.png", width=100)
 with col2:
-    st.header("Mari Tanya :blue[Bokem Plabju]", divider="blue")
+    st.header("Mari Tanya :blue[Kak Gem]", divider="blue")
 
 
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
-        {"role": "system", "content": "Saya adalah bokem plabju 🤚."}
+        {"role": "system", "content": "Saya adalah Kak gem, Paham 🤚."}
     ]
 
 for message in st.session_state["messages"]:
