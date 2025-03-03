@@ -16,13 +16,13 @@ col1, col2 = st.columns([1, 5])
 with col1:
     st.image("image.png", width=100)
 with col2:
-    st.header("Mari Tanya :blue[Kak Gem]", divider="blue")
+    st.header("Mari Tanya :blue[Bokem Plabju]", divider="blue")
 
 
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
-        {"role": "system", "content": "Saya adalah kak gem, paham 🤚."}
+        {"role": "system", "content": "Saya adalah bokem plabju 🤚."}
     ]
 
 for message in st.session_state["messages"]:
